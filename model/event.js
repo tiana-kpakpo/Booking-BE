@@ -20,7 +20,7 @@ const Event = sequelize.define('Event', {
 
     location: {
         type: DataTypes.STRING,
-        allowNull: false
+        allowNull: true
     },
 
     flyerURL: {

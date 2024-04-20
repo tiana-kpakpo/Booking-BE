@@ -17,6 +17,7 @@ const Review = sequelize.define('Review', {
     timestamps: true
 })
 
+//associations
 Review.belongsTo(User)
 Review.belongsTo(Event)
 
